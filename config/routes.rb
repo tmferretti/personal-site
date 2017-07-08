@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   root to: 'pages#index'
 
   # Blog
+  get '/blog' => 'posts#index'
+
+  get '/blog/:id' => 'posts#show'
 
   # Project Portfolio
 
