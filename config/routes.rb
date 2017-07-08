@@ -3,4 +3,11 @@ Rails.application.routes.draw do
   
   root to: 'pages#index'
 
+  # Blog
+
+  # Project Portfolio
+
+  # Admin
+  get '/admin' => 'admin#index'
+
 end
