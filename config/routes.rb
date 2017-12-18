@@ -15,6 +15,6 @@ Rails.application.routes.draw do
   get '/admin' => 'admin#index'
   get '/admin/blog/new' => 'posts#new'
   get '/admin/blog/:id/edit' => 'posts#edit'
-  delete '/admin/blog/:id' => 'posts#destroy'		
+  delete '/admin/blog/:id' => 'posts#destroy'
 
 end
